@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry Store</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="cartstyle.css">
+</head>
+<body>
+    
+  <div class="header-banner">
+    <div class="tree-left">🎄</div>
+    <p>Special Christmas Sale! 25% OFF</p>
+    <div class="tree-right">🎄</div>
+    
+  </div>
+
+  <header>
+   
+<h1>
+    <nav>
+        <ul>
+          <li> <div class="logo">
+            <img src="images/3628599c-aed6-469b-a50a-b2dd06508d00.jpeg" alt="Store Logo">
+          </div></li>
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Sign</a></li>
+          <li><a href="payment.html">payment</a></li>
+          <!-- Update the search-cart section -->
+          <li>
+            <div class="search-cart">
+              <form id="search-form" method="GET" action="search.html">
+                <input type="text" name="search" placeholder="Search" id="search-input" required>
+                <button type="submit">Search</button>
+              </form>
+            </div>
+            
+          </li>
+          
+
+          <li><div class="icon-container">
+            <!-- Kalp Logosu -->
+             <a href="shop.html">
+              <i class="fas fa-heart"></i>
+             </a>
+            <!-- Kullanıcı Profili Logosu -->
+             <a href="login.html">
+              <i class="fas fa-user"></i>
+             </a>
+            <!-- Sepet Logosu -->
+             <a href="cart.html">
+              <i class="fas fa-shopping-cart"></i>
+             </a>
+        </div></li>
+        </ul>
+      </nav>
+</h1>
+
+
+    <main>
+        <h1>Shopping Cart</h1>
+        <section id="cart-items">
+            <!-- Ürünler buraya dinamik olarak yüklenecek -->
+        </section>
+
+        <div id="cart-summary">
+            <h2>Total</h2>
+            <p id="total-price">Total price: 0₺</p>
+            <button id="clear-cart">Clear cart</button>
+        </div>
+    </main>
+    <footer>
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p>Phone: +1 (123) 456-7890</p>
+          <p>Email: contact@yourwebsite.com</p>
+          <p>Address: 123 Main Street, New York, NY 10001</p>
+        </div>
+        
+        <div class="follow-us">
+          <h3>Follow Us</h3>
+          <a href="https://www.instagram.com/accounts/login/" class="social-icon">
+            <img src="images/e032decf-4775-4bd2-b727-227b562dc15b.jpeg" alt="Instagram">
+          </a>
+          <a href="https://tr-tr.facebook.com/login/device-based/regular/login" class="social-icon">
+            <img src="images/74fbbd92-56f5-47bb-a6dc-98225cf10c9c.jpeg" alt="Facebook">
+          </a>
+          <a href="https://www.tiktok.com/login" class="social-icon">
+            <img src="images/2bfe8833-2ff7-4dfa-9e48-a886041732dd.jpeg" alt="TikTok">
+          </a>
+        </div>
+      </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>

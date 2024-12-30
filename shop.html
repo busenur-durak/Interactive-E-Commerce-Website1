@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="shopstyle.css">
+</head>
+<body>
+    <div class="header-banner">
+        <div class="tree-left">🎄</div>
+        <p>Special Christmas Sale! 25% OFF</p>
+        <div class="tree-right">🎄</div>
+        
+      </div>
+    
+      <header>
+       
+    <h1>
+        <nav>
+            <ul>
+              <li> <div class="logo">
+                <img src="images/3628599c-aed6-469b-a50a-b2dd06508d00.jpeg" alt="Store Logo">
+              </div></li>
+    
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="cart.html">Cart</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Sign</a></li>
+          <li><a href="payment.html">payment</a></li>
+              <!-- Update the search-cart section -->
+              <li>
+                <div class="search-cart">
+                    <form id="search-form" method="GET" action="search.html">
+                      <input type="text" name="search" placeholder="Search" id="search-input" required>
+                      <button type="submit">Search</button>
+                    </form>
+                  </div>
+              </li>
+              
+    
+              <li><div class="icon-container">
+                <!-- Kalp Logosu -->
+                 <a href="shop.html">
+                  <i class="fas fa-heart"></i>
+                 </a>
+                <!-- Kullanıcı Profili Logosu -->
+                 <a href="login.html">
+                  <i class="fas fa-user"></i>
+                 </a>
+                <!-- Sepet Logosu -->
+                 <a href="cart.html">
+                  <i class="fas fa-shopping-cart"></i>
+                 </a>
+            </div></li>
+            </ul>
+          </nav>
+    </h1>
+    
+      </header>
+    
+    <section class="filters">
+        <h2>Filters</h2>
+        <div class="filter-category">
+            <h3>Category</h3>
+            <select id="categoryFilter">
+                <option value="all">All Products</option>
+                <option value="necklace">Necklaces</option>
+                <option value="Earrings">Earrings</option>
+                <option value="watch">Watches</option>
+                <option value="Ring">Ring</option>
+            </select>
+        </div>
+        <div class="filter-price">
+            <h3>Price Range</h3>
+            <input type="number" id="minPrice" placeholder="Min Price"> -
+            <input type="number" id="maxPrice" placeholder="Max Price">
+            <button id="applyFilters">Apply</button>
+        </div>
+    </section>
+
+    <section class="product-grid">
+        <!-- Ürün -->
+        <div class="product" data-category="necklace">
+            <div class="image-container">
+                <a href="product-detail.html">
+                    <img src="images/cb1f124d-9588-442f-8000-ae850a3b464f.jpeg"alt="A Necklace" class="primary">
+                    <img src="images/9f1a6c30-681a-4ca6-aa55-ee2c873c16ad.jpeg" alt="A Necklace (Secondary)" class="secondary">
+                </a>
+                </div>
+            <h4>A Necklace</h4>
+            <p class="price">
+                <span class="discounted-price">₺15000</span>
+                <span class="original-price">₺20000</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="necklace">
+            <div class="image-container">
+                <a href="product-detail1.html">
+                    <img src="images/7ca0adcf-c8f2-4f79-82cb-2ad0b2903137.jpeg"alt="NATURAL Necklace" class="primary">
+                    <img src="images/c9efc811-5732-439a-841d-65e0924551b7.jpeg"alt="NATURAL Necklace (Secondary)" class="secondary">    
+                </a>
+            </div>
+            <h4>Natural Necklace</h4>
+            <p class="price">
+                <span class="discounted-price">₺1850</span>
+                <span class="original-price">₺2400</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="necklace">
+            <div class="image-container">
+                <a href="product-detail2.html">
+                    <img src="images/2e4b938b-7d0e-4c87-9957-cfe787107f74.jpeg"alt="Elegant Necklace" class="primary">
+                    <img src="images/17947729-cd2a-4d66-be49-08257be22e83.jpeg"alt="Elegant Necklace (Secondary)" class="secondary">      
+                </a>
+                  </div>
+            <h4>Elegant Necklace</h4>
+            <p class="price">
+                <span class="discounted-price">₺17750</span>
+                <span class="original-price">₺26600</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="Earrings">
+            <div class="image-container">
+                <a href="product-detail3.html">
+                    <img src="images/e4e4df94-080f-4eab-8a33-650088053a1b.jpeg"alt="Ribbon Earrings" class="primary">
+                    <img src="images/72cce92b-06e3-4df7-8e5e-c2e0cfd25636.jpeg"alt="Ribbon Earrings (Secondary)" class="secondary">    
+                </a>
+            </div>
+            <h4>Ribbon Earring</h4>
+            <p class="price">
+                <span class="discounted-price">₺18950</span>
+                <span class="original-price">₺20400</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="Earrings">
+            <div class="image-container">
+                <a href="product-detail4.html">
+                    <img src="images/cd720809-50fb-4d02-9a53-bbe62dad8f6b.jpeg"alt="star Earrings" class="primary">
+                <img src="images/e35897c7-8974-4f54-8b60-e7cc10f2b791.jpeg"alt="star Earings(Secondary)" class="secondary">
+                </a>
+                </div>
+            <h4>Star Earring</h4>
+            <p class="price">
+                <span class="discounted-price">₺1850</span>
+                <span class="original-price">₺2500</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="Earrings">
+            <div class="image-container">
+                <a href="product-detail5.html">
+                    <img src="images/26a81fff-a6ba-47a6-ad2d-fe8c903e5aee.jpeg"alt="Pearl Earrings" class="primary">
+                    <img src="images/f746b88d-fea7-4656-8fb3-7fc413b1922f.jpeg"alt="Pearl Earrings" class="secondary">     
+                </a>
+                 </div>
+            <h4>Pearl Earring</h4>
+            <p class="price">
+                <span class="discounted-price">₺13250</span>
+                <span class="original-price">₺26700</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="watch">
+            <div class="image-container">
+                <a href="product-detail6.html">
+                    <img src="images/d404b8d8-96f0-4f09-ac15-7109a69f43a6.jpeg"alt="Guess Watch" class="primary">
+                    <img src="images/dfe5c8b2-2070-4ce8-9708-a164eb8319d1.jpeg"alt="Guess Watch (Secondary)" class="secondary">      
+                </a>
+                </div>
+            <h4>Guess Watch</h4>
+            <p class="price">
+                <span class="discounted-price">₺17850</span>
+                <span class="original-price">₺20900</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="watch">
+            <div class="image-container">
+                <a href="product-detail7.html">
+                    <img src="images/94a5ab46-faec-4461-a46c-a46debb0a1e3.jpeg"alt="Calvin Klein Watch" class="primary">
+                    <img src="images/3de7ce36-2310-4c89-8b5a-791369a81fa6.jpeg"alt="Calvin Klein Watch (Secondary)" class="secondary">    
+                </a>
+                  </div>
+            <h4>Calvin Klein Watch</h4>
+            <p class="price">
+                <span class="discounted-price">₺17850</span>
+                <span class="original-price">₺22100</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="watch">
+            <div class="image-container">
+               <a href="product-detail8.html">
+                <img src="images/f1e299c9-9c58-4059-b408-9f3d69b35afa.jpeg"alt="Fossıl Watch" class="primary">
+                <img src="images/93e46a77-8653-4dff-822b-106ede23058a.jpeg"alt="Fossıl Watch (Secondary)" class="secondary"> 
+               </a>
+                </div>
+            <h4>Fossıl Watch</h4>
+            <p class="price">
+                <span class="discounted-price">₺10050</span>
+                <span class="original-price">₺20000</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="Ring">
+            <div class="image-container">
+               <a href="product-detail9.html">
+                <img src="images/90fd2466-73ed-4efd-9d84-a1fe12b70ec1 (1).jpeg"alt="Diamond Ring" class="primary">
+                <img src="images/f0b7ac71-01ea-4d95-bf04-0ee077b86869.jpeg"alt="Diamond Ring (Secondary)" class="secondary">
+               </a>
+                 </div>
+            <h4>Diamond Ring</h4>
+            <p class="price">
+                <span class="discounted-price">₺16750</span>
+                <span class="original-price">₺25600</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="Ring">
+            <div class="image-container">
+                <a href="product-detail10.html">
+                    <img src="images/5cce0b02-53e2-4468-810e-809e1bc8fd97.jpeg"alt="5 Diamond Ring" class="primary">
+                    <img src="images/a482c9d9-9d32-4423-a554-c8595cbc82a5.jpeg"alt="5 Diamond Ring (Secondary)" class="secondary">    
+                </a>
+                </div>
+            <h4>5 Diamond Ring</h4>
+            <p class="price">
+                <span class="discounted-price">₺96150</span>
+                <span class="original-price">₺98200</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="product" data-category="Ring">
+            <div class="image-container">
+               <a href="product-detail11.html">
+                <img src="images/1f77cf51-dbcc-4add-bd1d-ac598b3f2290.jpeg"alt="Lovely Ring" class="primary">
+                <img src="images/f8807192-362d-4ce1-9744-71acb176ce5a.jpeg"alt="Lovely Ring (Secondary)" class="secondary">
+               </a>
+                </div>
+            <h4>Lovely Ring</h4>
+            <p class="price">
+                <span class="discounted-price">₺70150</span>
+                <span class="original-price">₺75200</span>
+            </p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+    </section>
+    <footer>
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p>Phone: +1 (123) 456-7890</p>
+          <p>Email: contact@yourwebsite.com</p>
+          <p>Address: 123 Main Street, New York, NY 10001</p>
+        </div>
+        
+        <div class="follow-us">
+          <h3>Follow Us</h3>
+          <a href="https://www.instagram.com/accounts/login/" class="social-icon">
+            <img src="images/e032decf-4775-4bd2-b727-227b562dc15b.jpeg" alt="Instagram">
+          </a>
+          <a href="https://tr-tr.facebook.com/login/device-based/regular/login" class="social-icon">
+            <img src="images/74fbbd92-56f5-47bb-a6dc-98225cf10c9c.jpeg" alt="Facebook">
+          </a>
+          <a href="https://www.tiktok.com/login" class="social-icon">
+            <img src="images/2bfe8833-2ff7-4dfa-9e48-a886041732dd.jpeg" alt="TikTok">
+          </a>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.header-banner {
+  background-color: #ff6f61;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  
+}
+.tree-left, .tree-right {
+  font-size: 2rem;
+}
+
+/* Navigation Bar */
+nav {
+background-color: #000000; /* Full-width black background */
+padding: 10px 20px;
+width: 100%; /* Ensure it stretches the entire width */
+box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between; /* Distribute space between items */
+margin: 0;
+padding: 0;
+width: 100%; /* Ensure nav items stretch across */
+align-items: center; /* Center items vertically */
+}
+
+/* Navigation Links */
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+/* Logo Section */
+header .logo {
+flex: 1;
+}
+
+header .logo img {
+height: 100px;
+}
+
+/* Search Bar */
+.search-cart {
+display: flex;
+gap: 10px;
+}
+
+.search-cart input {
+padding: 5px;
+font-size: 16px;
+border-radius: 5px;
+}
+
+.search-cart button {
+background-color: #e60000;
+color: white;
+padding: 6px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.search-cart button:hover {
+background-color: #b30000;
+}
+
+
+.icon-container {
+display: flex;
+gap: 20px;
+font-size: 30px;
+}
+
+.icon-container i {
+cursor: pointer;
+}
+
+/* Styling for Heart, User, and Cart Icons */
+.fa-heart {
+color: rgb(255, 2, 2); /* Heart icon red */
+}
+
+.fa-user {
+color: rgb(255, 255, 255); /* User icon black */
+}
+
+.fa-shopping-cart {
+color: #008000; /* Cart icon green */
+}
+
+
+.product-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ürün resmi */
+.product-image {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.main-image {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.main-image:hover {
+  transform: scale(1.1); /* Resmi %10 büyütür */}
+
+/* Ürün bilgileri */
+.product-info {
+  flex: 2;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.product-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ff0000; /* Kırmızı */
+}
+
+.product-description {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* İndirimsiz fiyat */
+.original-price {
+  font-size: 1.2em;
+  color: #999; /* Soluk renk */
+  text-decoration: line-through; /* Üstü çizili */
+  margin-right: 10px; /* Fiyatlar arasında boşluk */
+}
+
+/* İndirimli fiyat */
+.discounted-price {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000; /* Siyah renk */
+}
+
+
+.add-to-cart {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ff0000; /* Kırmızı */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #cc0000; /* Daha koyu kırmızı */
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-info, .follow-us {
+  width: 45%;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}

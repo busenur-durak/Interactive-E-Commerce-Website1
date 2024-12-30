@@ -1,0 +1,233 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.header-banner {
+background-color: #ff6f61;
+color: white;
+display: flex;
+justify-content: center;
+padding: 10px 0;
+font-size: 1.2rem;
+width:100%;
+}
+.tree-left, .tree-right {
+font-size: 2rem;
+}
+
+/* Navigation Bar */
+nav {
+background-color: #000000; /* Full-width black background */
+padding: 10px 20px;
+width: 100%; /* Ensure it stretches the entire width */
+box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between; /* Distribute space between items */
+margin: 0;
+padding: 0;
+width: 100%; /* Ensure nav items stretch across */
+align-items: center; /* Center items vertically */
+}
+
+/* Navigation Links */
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+/* Logo Section */
+header .logo {
+flex: 1;
+}
+
+header .logo img {
+height: 100px;
+}
+
+/* Search Bar */
+.search-cart {
+display: flex;
+gap: 10px;
+}
+
+.search-cart input {
+padding: 5px;
+font-size: 16px;
+border-radius: 5px;
+}
+
+.search-cart button {
+background-color: #e60000;
+color: white;
+padding: 6px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.search-cart button:hover {
+background-color: #b30000;
+}
+
+
+.icon-container {
+display: flex;
+gap: 20px;
+font-size: 30px;
+}
+
+.icon-container i {
+cursor: pointer;
+}
+
+/* Styling for Heart, User, and Cart Icons */
+.fa-heart {
+color: rgb(255, 2, 2); /* Heart icon red */
+}
+
+.fa-user {
+color: rgb(255, 255, 255); /* User icon black */
+}
+
+.fa-shopping-cart {
+color: #008000; /* Cart icon green */
+}
+
+/* Filtre Alanı */
+.filters {
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.filters h2 {
+  margin-bottom: 10px;
+}
+
+.filter-category, .filter-price {
+  margin-bottom: 15px;
+}
+
+.product-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+    grid-template-rows: repeat(4, auto); /* 4 satır */
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  width: 450px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.image-container .secondary {
+  opacity: 0;
+}
+
+.image-container:hover .primary {
+  opacity: 0;
+}
+
+.image-container:hover .secondary {
+  opacity: 1;
+}
+
+h4 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.price {
+  margin: 10px 0;
+}
+
+.discounted-price {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+.add-to-cart {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #ff0000;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+background-color: #f4f4f4;
+width: 100%;
+}
+
+.contact-info, .follow-us {
+width: 45%;
+}
+
+h3 {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+.social-links {
+display: flex;
+gap: 15px;
+}
+
+.social-icon img {
+width: 30px;
+height: 30px;
+} 

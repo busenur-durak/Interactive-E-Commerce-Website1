@@ -1,0 +1,174 @@
+body, h1, h2, h3, p, ul, li, a, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.header-banner {
+  background-color: #ff6f61;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  
+}
+.tree-left, .tree-right {
+  font-size: 2rem;
+}
+
+/* Navigation Bar */
+nav {
+background-color: #000000; /* Full-width black background */
+padding: 10px 20px;
+width: 100%; /* Ensure it stretches the entire width */
+box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between; /* Distribute space between items */
+margin: 0;
+padding: 0;
+width: 100%; /* Ensure nav items stretch across */
+align-items: center; /* Center items vertically */
+}
+
+/* Navigation Links */
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+/* Logo Section */
+header .logo {
+flex: 1;
+}
+
+header .logo img {
+height: 100px;
+}
+
+/* Search Bar */
+.search-cart {
+display: flex;
+gap: 10px;
+}
+
+.search-cart input {
+padding: 5px;
+font-size: 16px;
+border-radius: 5px;
+}
+
+.search-cart button {
+background-color: #e60000;
+color: white;
+padding: 6px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.search-cart button:hover {
+background-color: #b30000;
+}
+
+
+.icon-container {
+display: flex;
+gap: 20px;
+font-size: 30px;
+}
+
+.icon-container i {
+cursor: pointer;
+}
+
+/* Styling for Heart, User, and Cart Icons */
+.fa-heart {
+color: rgb(255, 2, 2); /* Heart icon red */
+}
+
+.fa-user {
+color: rgb(255, 255, 255); /* User icon black */
+}
+
+.fa-shopping-cart {
+color: #008000; /* Cart icon green */
+}
+
+
+/* About Us Section */
+section {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+em {
+  font-style: italic;
+  color: #b43d3d;
+}
+
+.value-proposition {
+  background-color: #f1f1f1;
+  padding: 40px 20px;
+}
+
+.value-proposition ul {
+  list-style-type: square;
+  margin-top: 10px;
+}
+
+.value-proposition li {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-info, .follow-us {
+  width: 45%;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
